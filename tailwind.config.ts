@@ -52,8 +52,8 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         orllo: {
-          green: "hsl(var(--orllo-green))",
-          glow: "hsl(var(--orllo-green-glow))",
+          orange: "hsl(var(--orllo-orange))",
+          glow: "hsl(var(--orllo-orange-glow))",
         },
         competitor: {
           gray: "hsl(var(--competitor-gray))",
