@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { X, CheckCheck } from "lucide-react";
+import { Check, X } from "lucide-react";
 
 const scenarios = [
 { name: "Kocioł CO", orllo: true, eco: true },
@@ -13,7 +13,7 @@ const scenarios = [
 
 
 const renderVal = (v: boolean | string) => {
-  if (v === true) return <CheckCheck className="w-5 h-5 text-primary mx-auto" />;
+  if (v === true) return <Check className="w-5 h-5 text-primary mx-auto" />;
   if (v === false) return <X className="w-5 h-5 text-destructive mx-auto" />;
   return <span className={v === "pełny" ? "text-primary font-bold" : "text-accent"}>{v}</span>;
 };
