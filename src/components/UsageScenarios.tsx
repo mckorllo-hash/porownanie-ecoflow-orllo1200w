@@ -1,22 +1,40 @@
 import { motion } from "framer-motion";
-import { X, Check } from "lucide-react";
+import { Check } from "lucide-react";
+
+const OrlloCheck1 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+const EcoCheck1 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+
+const OrlloCheck2 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+const EcoCheck2 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+
+const OrlloCheck3 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+const EcoCheck3 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+
+const OrlloCheck4 = () => <span className="text-primary font-bold">pełny</span>;
+const EcoCheck4 = () => <span className="text-accent">ograniczony</span>;
+
+const OrlloCheck5 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+const EcoCheck5 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+
+const OrlloCheck6 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+const EcoCheck6 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+
+const OrlloCheck7 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+const EcoCheck7 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+
+const OrlloCheck8 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
+const EcoCheck8 = () => <Check className="w-5 h-5 text-primary mx-auto" />;
 
 const scenarios = [
-{ name: "Kocioł CO", orllo: true, eco: true },
-{ name: "Lodówka", orllo: true, eco: true },
-{ name: "Laptop", orllo: true, eco: true },
-{ name: "Dom — blackout", orllo: "pełny", eco: "ograniczony" },
-{ name: "Camping / outdoor", orllo: true, eco: true },
-{ name: "Router Wi-Fi + monitoring", orllo: true, eco: true },
-{ name: "Telewizor", orllo: true, eco: true },
-{ name: "Maszyna CPAP", orllo: true, eco: true }];
-
-
-const renderVal = (v: boolean | string) => {
-  if (v === true) return <Check className="w-5 h-5 text-primary mx-auto" />;
-  if (v === false) return <X className="w-5 h-5 text-destructive mx-auto" />;
-  return <span className={v === "pełny" ? "text-primary font-bold" : "text-accent"}>{v}</span>;
-};
+  { name: "Kocioł CO", orllo: <OrlloCheck1 />, eco: <EcoCheck1 /> },
+  { name: "Lodówka", orllo: <OrlloCheck2 />, eco: <EcoCheck2 /> },
+  { name: "Laptop", orllo: <OrlloCheck3 />, eco: <EcoCheck3 /> },
+  { name: "Dom — blackout", orllo: <OrlloCheck4 />, eco: <EcoCheck4 /> },
+  { name: "Camping / outdoor", orllo: <OrlloCheck5 />, eco: <EcoCheck5 /> },
+  { name: "Router Wi-Fi + monitoring", orllo: <OrlloCheck6 />, eco: <EcoCheck6 /> },
+  { name: "Telewizor", orllo: <OrlloCheck7 />, eco: <EcoCheck7 /> },
+  { name: "Maszyna CPAP", orllo: <OrlloCheck8 />, eco: <EcoCheck8 /> },
+];
 
 const UsageScenarios = () =>
 <section className="py-16 md:py-24">
@@ -42,10 +60,10 @@ const UsageScenarios = () =>
           </thead>
           <tbody>
             {scenarios.map((s) =>
-          <tr key={s.name} className="border-b border-border/50">
+           <tr key={s.name} className="border-b border-border/50">
                 <td className="py-3 px-4 font-medium text-foreground">{s.name}</td>
-                <td className="py-3 px-4 text-center">{renderVal(s.orllo)}</td>
-                <td className="py-3 px-4 text-center">{renderVal(s.eco)}</td>
+                <td className="py-3 px-4 text-center">{s.orllo}</td>
+                <td className="py-3 px-4 text-center">{s.eco}</td>
               </tr>
           )}
           </tbody>
