@@ -43,7 +43,7 @@ const HeroSection = () =>
           <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider">
             Rekomendowany
           </span>
-          <img src={orlloImg} alt="Przenośna stacja zasilania ORLLO 1200W 1024Wh LiFePO4" className="w-full max-w-[280px] mx-auto rounded-xl mb-4" />
+          <img alt="Przenośna stacja zasilania ORLLO 1200W 1024Wh LiFePO4" className="w-full max-w-[280px] mx-auto rounded-xl mb-4" src="/lovable-uploads/402f4959-55cb-44c0-b074-5a9796dd37c6.jpg" />
           <h2 className="font-display text-xl font-bold text-foreground mb-1">ORLLO Power Station</h2>
           <p className="text-muted-foreground text-sm mb-4">1200W / 1024Wh / LiFePO4</p>
           <a
@@ -63,7 +63,7 @@ const HeroSection = () =>
         transition={{ duration: 0.7, delay: 0.3 }}
         className="rounded-2xl border border-border surface-elevated p-6 text-center">
 
-          <img alt="EcoFlow River 2 Pro stacja zasilania" className="w-full max-w-[280px] mx-auto rounded-xl mb-4 opacity-70" src="/lovable-uploads/8da86281-619e-4490-b2cf-e46c7657b219.jpg" />
+          <img src={ecoflowImg} alt="EcoFlow River 2 Pro stacja zasilania" className="w-full max-w-[280px] mx-auto rounded-xl mb-4" />
           <h2 className="font-display text-xl font-bold text-foreground mb-1">EcoFlow River 2 Pro</h2>
           <p className="text-muted-foreground text-sm mb-4">800W / 768Wh / LiFePO4</p>
           <button
