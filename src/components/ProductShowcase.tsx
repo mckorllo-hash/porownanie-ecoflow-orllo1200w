@@ -47,7 +47,7 @@ const ProductShowcase = () => (
             <img
               src={item.image}
               alt={item.alt}
-              className="w-full md:w-1/2 aspect-[4/3] object-cover"
+              className="w-full md:w-1/2 aspect-square object-contain bg-muted/30"
               loading="lazy"
             />
             <div className="p-6 md:p-10 flex-1">
