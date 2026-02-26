@@ -26,7 +26,7 @@ const UsageScenarios = () =>
           <tbody>
             <tr className="border-b border-border/50">
               <td className="py-3 px-4 font-medium text-foreground">Kocioł CO</td>
-              <CheckCheck className="py-3 px-4 text-center"><Check className="w-5 h-5 text-primary mx-auto" /></CheckCheck>
+              <td className="py-3 px-4 text-center"><CheckCheck className="w-5 h-5 text-primary mx-auto" /></td>
               <td className="py-3 px-4 text-center"><Check className="w-5 h-5 text-primary mx-auto" /></td>
             </tr>
             <tr className="border-b border-border/50">
@@ -46,7 +46,7 @@ const UsageScenarios = () =>
             </tr>
             <tr className="border-b border-border/50">
               <td className="py-3 px-4 font-medium text-foreground">Camping / outdoor</td>
-              <CheckCheck className="py-3 px-4 text-center"><Check className="w-5 h-5 text-primary mx-auto" /></CheckCheck>
+              <td className="py-3 px-4 text-center"><CheckCheck className="w-5 h-5 text-primary mx-auto" /></td>
               <td className="py-3 px-4 text-center"><Check className="w-5 h-5 text-primary mx-auto" /></td>
             </tr>
             <tr className="border-b border-border/50">
@@ -61,7 +61,7 @@ const UsageScenarios = () =>
             </tr>
             <tr className="border-b border-border/50">
               <td className="py-3 px-4 font-medium text-foreground">Maszyna CPAP</td>
-              <CheckCheck className="py-3 px-4 text-center"><Check className="w-5 h-5 text-primary mx-auto" /></CheckCheck>
+              <td className="py-3 px-4 text-center"><CheckCheck className="w-5 h-5 text-primary mx-auto" /></td>
               <td className="py-3 px-4 text-center"><Check className="w-5 h-5 text-primary mx-auto" /></td>
             </tr>
           </tbody>
