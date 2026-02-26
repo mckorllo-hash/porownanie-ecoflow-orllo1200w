@@ -5,7 +5,7 @@ const ORLLO_LINK = "https://orllo.pl/energy/przenosna-stacja-zasilania-zasilanie
 const FinalCta = () => {
   const handleClick = () => {
     // Wysyłanie zdarzenia do Google Analytics
-    gtag("event", "add_to_cart", {
+    (window as any).gtag?.("event", "add_to_cart", {
       event_category: "ecommerce",
       event_label: "Kup teraz — ORLLO",
       value: 2699.0, // Możesz podać wartość, jeśli chcesz
