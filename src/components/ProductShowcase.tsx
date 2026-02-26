@@ -8,12 +8,14 @@ const showcaseItems = [
     title: "Przenośna Stacja Zasilania z Możliwością Ładowania Panelem Słonecznym",
     desc: "Ładowanie panelem fotowoltaicznym do 600W — idealne rozwiązanie off-grid na działkę, kemping czy awaryjne zasilanie domu.",
     alt: "ORLLO Power Station z panelem słonecznym — ładowanie solarne do 600W",
+    reverse: false,
   },
   {
     image: orloPortsLed,
     title: "Mobilny Magazyn Energii OFF GRID — 13 Portów Wyjściowych",
     desc: "13 portów wyjściowych i wbudowane oświetlenie LED. Naładuj jednocześnie laptopa, telefon, głośnik i wiele więcej.",
     alt: "ORLLO Power Station — 13 portów wyjściowych i wbudowane oświetlenie LED",
+    reverse: true,
   },
 ];
 
@@ -32,7 +34,7 @@ const ProductShowcase = () => (
         <p className="text-muted-foreground">Zobacz możliwości stacji zasilania</p>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="flex flex-col gap-10">
         {showcaseItems.map((item, i) => (
           <motion.div
             key={item.title}
@@ -40,17 +42,17 @@ const ProductShowcase = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.15 }}
-            className="surface-elevated rounded-2xl overflow-hidden border border-border hover:border-primary/30 transition-colors"
+            className={`flex flex-col ${item.reverse ? "md:flex-row-reverse" : "md:flex-row"} items-center gap-6 md:gap-10 surface-elevated rounded-2xl overflow-hidden border border-border hover:border-primary/30 transition-colors`}
           >
             <img
               src={item.image}
               alt={item.alt}
-              className="w-full aspect-[4/3] object-cover"
+              className="w-full md:w-1/2 aspect-[4/3] object-cover"
               loading="lazy"
             />
-            <div className="p-6">
-              <h3 className="font-display font-bold text-foreground text-lg mb-2">{item.title}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
+            <div className="p-6 md:p-10 flex-1">
+              <h3 className="font-display font-bold text-foreground text-lg md:text-xl mb-3">{item.title}</h3>
+              <p className="text-muted-foreground text-sm md:text-base leading-relaxed">{item.desc}</p>
             </div>
           </motion.div>
         ))}
