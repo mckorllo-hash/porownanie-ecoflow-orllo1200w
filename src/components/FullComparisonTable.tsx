@@ -20,7 +20,7 @@ const rows: Row[] = [
 { label: "Ładowanie solarne", orllo: true, eco: true },
 { label: "UPS / EPS", orllo: true, eco: true },
 { label: "Gniazda AC 230V", orllo: "2", eco: "2", orlloWin: true },
-{ label: "USB-A", orllo: "2", eco: "3" },
+{ label: "USB-A", orllo: "4", eco: "3", orlloWin: true },
 { label: "USB-C", orllo: "2", eco: "1", orlloWin: true },
 
 { label: "Waga", orllo: "~12 kg", eco: "~7.8 kg" },
