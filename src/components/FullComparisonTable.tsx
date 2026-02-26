@@ -27,7 +27,7 @@ const rows: Row[] = [
 { label: "Gwarancja", orllo: "24 mies.", eco: "24 mies." },
 { label: "Polska dystrybucja", orllo: true, eco: false, orlloWin: true },
 { label: "Serwis w UE", orllo: true, eco: "partial", orlloWin: true },
-{ label: "Cena", orllo: "~2 899 zł", eco: "~3 499 zł", orlloWin: true }];
+{ label: "Cena", orllo: "~2 699 zł", eco: "~3 499 zł", orlloWin: true }];
 
 
 const renderCell = (value: CellValue, highlight?: boolean) => {
