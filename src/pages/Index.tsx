@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import QuickComparison from "@/components/QuickComparison";
 import FullComparisonTable from "@/components/FullComparisonTable";
 import AdvantagesSection from "@/components/AdvantagesSection";
+import ProductShowcase from "@/components/ProductShowcase";
 import UsageScenarios from "@/components/UsageScenarios";
 import ReviewsSection from "@/components/ReviewsSection";
 import VsGeneratorSection from "@/components/VsGeneratorSection";
@@ -16,6 +17,7 @@ const Index = () => {
       <QuickComparison />
       <FullComparisonTable />
       <AdvantagesSection />
+      <ProductShowcase />
       <UsageScenarios />
       <ReviewsSection />
       <VsGeneratorSection />
