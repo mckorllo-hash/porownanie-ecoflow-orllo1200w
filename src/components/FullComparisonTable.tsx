@@ -16,7 +16,7 @@ const rows: Row[] = [
 { label: "Moc maksymalna (W)", orllo: "1500W", eco: "1600W" },
 { label: "Typ ogniw", orllo: "LiFePO4 EVE", eco: "LiFePO4", orlloWin: true },
 { label: "Żywotność cykli", orllo: "3000+", eco: "3000+" },
-{ label: "Ładowanie 0–100%", orllo: "~1h", eco: "~70 min", orlloWin: true },
+{ label: "Ładowanie 0–100%", orllo: "~60 min", eco: "~70 min", orlloWin: true },
 { label: "Ładowanie solarne", orllo: true, eco: true },
 { label: "UPS / EPS", orllo: true, eco: true },
 { label: "Gniazda AC 230V", orllo: "4", eco: "2", orlloWin: true },
