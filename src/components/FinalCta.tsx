@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const ORLLO_LINK = "https://orllo.pl/energy/przenosna-stacja-zasilania-zasilanie-awaryjne-magazyn-energii.html";
+const ORLLO_LINK = "https://orllo.pl/energy/przenosna-stacja-zasilania-zasilanie-awaryjne-magazyn-energii.html?autoadd=true";
 
 const FinalCta = () =>
 <section className="py-20 md:py-28">
