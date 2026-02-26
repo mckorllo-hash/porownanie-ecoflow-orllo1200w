@@ -19,7 +19,7 @@ const rows: Row[] = [
 { label: "Ładowanie 0–100%", orllo: "~60 min", eco: "~70 min", orlloWin: true },
 { label: "Ładowanie solarne", orllo: true, eco: true },
 { label: "UPS / EPS", orllo: true, eco: true },
-{ label: "Gniazda AC 230V", orllo: "4", eco: "2", orlloWin: true },
+{ label: "Gniazda AC 230V", orllo: "2", eco: "2", orlloWin: true },
 { label: "USB-A", orllo: "2", eco: "3" },
 { label: "USB-C", orllo: "2", eco: "1", orlloWin: true },
 { label: "Aplikacja mobilna", orllo: true, eco: true },
