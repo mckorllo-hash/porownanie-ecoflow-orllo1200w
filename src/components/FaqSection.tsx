@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "Ile kosztuje stacja zasilania ORLLO?",
-    a: "Stacja zasilania ORLLO 1200W/1024Wh kosztuje ok. 2 899 zł z darmową wysyłką 24h. Dostępne są również raty 0%. To znacznie mniej niż porównywalne modele konkurencji."
+    a: "Stacja zasilania ORLLO 1200W/1024Wh kosztuje ok. 2 699 zł z darmową wysyłką 24h. Dostępne są również raty 0%. To znacznie mniej niż porównywalne modele konkurencji."
   },
 ];
 
