@@ -6,6 +6,7 @@ const StickyCta = () => (
       href={ORLLO_LINK}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={() => (window as any).gtag?.("event", "add_to_cart", { event_category: "ecommerce", event_label: "Kup teraz — ORLLO (Sticky)", value: 2699.0 })}
       className="flex items-center justify-center w-full py-3.5 rounded-xl bg-primary text-primary-foreground font-bold text-base hover:brightness-110 transition-all"
     >
       🟢 Kup teraz — ORLLO Power Station

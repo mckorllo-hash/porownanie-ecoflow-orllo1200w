@@ -50,8 +50,8 @@ const HeroSection = () =>
           href={ORLLO_LINK}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => (window as any).gtag?.("event", "add_to_cart", { event_category: "ecommerce", event_label: "Kup teraz — ORLLO (Hero)", value: 2699.0 })}
           className="inline-flex items-center justify-center w-full px-6 py-3.5 rounded-xl bg-primary text-primary-foreground font-bold text-base hover:brightness-110 transition-all animate-pulse-glow">
-
             🟢 Kup teraz — ORLLO
           </a>
         </motion.div>
