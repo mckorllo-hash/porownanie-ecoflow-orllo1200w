@@ -63,7 +63,7 @@ const HeroSection = () =>
         transition={{ duration: 0.7, delay: 0.3 }}
         className="rounded-2xl border border-border surface-elevated p-6 text-center">
 
-          <img src={ecoflowImg} alt="EcoFlow River 2 Pro stacja zasilania" className="w-full max-w-[280px] mx-auto rounded-xl mb-4" />
+          <img alt="EcoFlow River 2 Pro stacja zasilania" className="w-full max-w-[280px] mx-auto rounded-xl mb-4 opacity-75" src="/lovable-uploads/0b28164b-d547-4f92-b7ee-9cf070423089.jpg" />
           <h2 className="font-display text-xl font-bold text-foreground mb-1">EcoFlow River 2 Pro</h2>
           <p className="text-muted-foreground text-sm mb-4">800W / 768Wh / LiFePO4</p>
           <button
