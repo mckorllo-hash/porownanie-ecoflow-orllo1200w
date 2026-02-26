@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import orlloImg from "@/assets/orllo-station.jpg";
 import ecoflowImg from "@/assets/ecoflow-station.jpg";
 
-const ORLLO_LINK = "https://orllo.pl/energy/przenosna-stacja-zasilania-zasilanie-awaryjne-magazyn-energii.html";
+const ORLLO_LINK = "https://orllo.pl/energy/przenosna-stacja-zasilania-zasilanie-awaryjne-magazyn-energii.html?autoadd=true";
 
 const HeroSection = () =>
 <section className="relative min-h-[90vh] flex items-center overflow-hidden">
