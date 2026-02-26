@@ -22,7 +22,7 @@ const rows: Row[] = [
 { label: "Gniazda AC 230V", orllo: "2", eco: "2", orlloWin: true },
 { label: "USB-A", orllo: "2", eco: "3" },
 { label: "USB-C", orllo: "2", eco: "1", orlloWin: true },
-{ label: "Aplikacja mobilna", orllo: true, eco: true },
+
 { label: "Waga", orllo: "~12 kg", eco: "~7.8 kg" },
 { label: "Gwarancja", orllo: "24 mies.", eco: "24 mies." },
 { label: "Polska dystrybucja", orllo: true, eco: false, orlloWin: true },
