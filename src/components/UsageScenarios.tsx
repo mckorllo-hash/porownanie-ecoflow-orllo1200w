@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Check, X, CheckCheck } from "lucide-react";
+import { Check, X } from "lucide-react";
 
 const scenarios = [
 { name: "Kocioł CO", orllo: true, eco: true },
@@ -32,7 +32,7 @@ const UsageScenarios = () =>
       </motion.div>
 
       <div className="max-w-2xl mx-auto overflow-x-auto">
-        <CheckCheck className="w-full text-sm">
+        <table className="w-full text-sm">
           <thead>
             <tr className="border-b border-border">
               <th className="text-left py-3 px-4 text-muted-foreground">Zastosowanie</th>
@@ -41,15 +41,15 @@ const UsageScenarios = () =>
             </tr>
           </thead>
           <tbody>
-            {scenarios.map((s) =>
-          <tr key={s.name} className="border-b border-border/50">
+            {scenarios.map((s) => (
+              <tr key={s.name} className="border-b border-border/50">
                 <td className="py-3 px-4 font-medium text-foreground">{s.name}</td>
                 <td className="py-3 px-4 text-center">{renderVal(s.orllo)}</td>
                 <td className="py-3 px-4 text-center">{renderVal(s.eco)}</td>
               </tr>
-          )}
+            ))}
           </tbody>
-        </CheckCheck>
+        </table>
       </div>
     </div>
   </section>;
