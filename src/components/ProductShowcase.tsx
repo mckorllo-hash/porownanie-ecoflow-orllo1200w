@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import orloSolar from "@/assets/orllo-solar.png";
+import orloSolar from "@/assets/orllo-solar-lake.png";
 import orloPortsLed from "@/assets/orllo-ports-led.png";
 
 const showcaseItems = [
