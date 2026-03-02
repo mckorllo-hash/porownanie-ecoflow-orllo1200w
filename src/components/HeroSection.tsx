@@ -22,8 +22,8 @@ const HeroSection = () =>
         <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20 mb-6">
           Porównanie 2026
         </span>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight mb-6">
-          <span className="text-gradient-primary">ORLLO</span> vs EcoFlow River 2 Pro
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight mb-6">Przenośna Stacja ORLLO vs EcoFlow
+— porównanie stacji zasilania<span className="text-gradient-primary">Przenośna Stacja ORLLO</span> vs EcoFlow River 2 Pro
           <br />
           <span className="text-foreground/80 text-2xl sm:text-3xl md:text-4xl">— porównanie stacji zasilania</span>
         </h1>
@@ -51,9 +51,9 @@ const HeroSection = () =>
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => (window as any).gtag?.("event", "add_to_cart", { event_category: "ecommerce", event_label: "Kup teraz — ORLLO (Hero)", value: 2699.0 })}
-          className="inline-flex items-center justify-center w-full px-6 py-3.5 rounded-xl bg-primary text-primary-foreground font-bold text-base hover:brightness-110 transition-all animate-pulse-glow">
-            🟢 Kup teraz — ORLLO
-          </a>
+          className="inline-flex items-center justify-center w-full px-6 py-3.5 rounded-xl bg-primary text-primary-foreground font-bold text-base hover:brightness-110 transition-all animate-pulse-glow">🟢 Kup teraz - ORLLO
+
+        </a>
         </motion.div>
 
         {/* EcoFlow */}
@@ -70,7 +70,7 @@ const HeroSection = () =>
           disabled
           className="inline-flex items-center justify-center w-full px-6 py-3.5 rounded-xl bg-muted text-muted-foreground font-bold text-base cursor-not-allowed opacity-70">
 
-            ⚪ Kup teraz — EcoFlow
+            ⚪ Kup teraz - EcoFlow
           </button>
           <p className="text-xs text-muted-foreground mt-2">Link wkrótce dostępny</p>
         </motion.div>

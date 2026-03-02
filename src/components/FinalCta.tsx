@@ -8,7 +8,7 @@ const FinalCta = () => {
     (window as any).gtag?.("event", "add_to_cart", {
       event_category: "ecommerce",
       event_label: "Kup teraz — ORLLO",
-      value: 2699.0, // Możesz podać wartość, jeśli chcesz
+      value: 2699.0 // Możesz podać wartość, jeśli chcesz
     });
   };
 
@@ -19,8 +19,8 @@ const FinalCta = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center max-w-2xl mx-auto"
-        >
+          className="text-center max-w-2xl mx-auto">
+
           <h2 className="text-2xl md:text-4xl font-display font-bold mb-4">
             Wybierz stację zasilania dopasowaną do Twoich potrzeb
           </h2>
@@ -35,20 +35,20 @@ const FinalCta = () => {
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-xl bg-primary text-primary-foreground font-bold text-lg hover:brightness-110 transition-all animate-pulse-glow"
               onClick={handleClick} // Dodajemy funkcję śledzenia
-            >
-              🟢 Kup teraz — ORLLO
+            >🟢 Kup teraz - ORLLO
+
             </a>
             <button
               disabled
-              className="px-8 py-4 rounded-xl bg-muted text-muted-foreground font-bold text-lg cursor-not-allowed opacity-70"
-            >
+              className="px-8 py-4 rounded-xl bg-muted text-muted-foreground font-bold text-lg cursor-not-allowed opacity-70">
+
               ⚪ EcoFlow
             </button>
           </div>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default FinalCta;

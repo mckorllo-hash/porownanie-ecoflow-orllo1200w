@@ -47,7 +47,7 @@ const FullComparisonTable = () =>
       className="text-center mb-12">
 
         <h2 className="text-2xl md:text-3xl font-display font-bold mb-3">Pełna tabela porównawcza</h2>
-        <p className="text-muted-foreground">Szczegółowe zestawienie parametrów ORLLO vs EcoFlow River 2 Pro</p>
+        <p className="text-muted-foreground">Szczegółowe zestawienie parametrów Stacji Zasilania ORLLO vs EcoFlow River 2 Pro</p>
       </motion.div>
 
       <div className="max-w-3xl mx-auto overflow-x-auto">
