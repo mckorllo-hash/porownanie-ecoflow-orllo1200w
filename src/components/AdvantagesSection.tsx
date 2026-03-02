@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { DollarSign, Battery, Home, Flag, Wrench, Package } from "lucide-react";
 
 const advantages = [
-{ icon: DollarSign, title: "Lepszy stosunek ceny do mocy", desc: "Więcej watów i watogodzin za mniejszą cenę — realna oszczędność przy tej samej funkcjonalności." },
-{ icon: Battery, title: "Większa pojemność w tej klasie", desc: "1024 Wh vs 768 Wh — więcej energii do zasilania domu podczas blackoutu." },
+{ icon: DollarSign, title: "Lepszy stosunek ceny do mocy", desc: "Więcej watów i watogodzin za mniejszą cenę. Realna oszczędność przy tej samej funkcjonalności." },
+{ icon: Battery, title: "Większa pojemność w tej klasie", desc: "1024 Wh vs 768 Wh: więcej energii do zasilania domu podczas blackoutu." },
 { icon: Home, title: "Dłuższa praca urządzeń domowych", desc: "Zasilisz lodówkę, kocioł CO i oświetlenie przez dłuższy czas bez ładowania." },
 { icon: Flag, title: "Polska dystrybucja", desc: "Szybka dostawa, faktura VAT, pełne wsparcie w języku polskim." },
-{ icon: Wrench, title: "Serwis gwarancyjny w UE", desc: "Brak problemów z reklamacjami — autoryzowany serwis na terenie Unii Europejskiej." },
-{ icon: Package, title: "Dostępność od ręki", desc: "Produkt dostępny w magazynie — wysyłka w 24h bez czekania na dostawę z zagranicy." }];
+{ icon: Wrench, title: "Serwis gwarancyjny w UE", desc: "Brak problemów z reklamacjami. Autoryzowany serwis na terenie Unii Europejskiej." },
+{ icon: Package, title: "Dostępność od ręki", desc: "Produkt dostępny w magazynie, wysyłka w 24h bez czekania na dostawę z zagranicy." }];
 
 
 const AdvantagesSection = () =>
