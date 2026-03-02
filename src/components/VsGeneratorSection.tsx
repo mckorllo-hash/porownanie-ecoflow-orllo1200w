@@ -3,7 +3,7 @@ import { Volume2, Fuel, Home, Wind, Shield } from "lucide-react";
 
 const comparisons = [
   { icon: Volume2, label: "Cisza pracy", station: "Bezgłośna praca", generator: "60-80 dB hałasu" },
-  { icon: Fuel, label: "Paliwo", station: "Brak — ładowanie z sieci/solaru", generator: "Wymaga benzyny/gazu" },
+  { icon: Fuel, label: "Paliwo", station: "Brak - ładowanie z sieci/solaru", generator: "Wymaga benzyny/gazu" },
   { icon: Home, label: "Użycie w mieszkaniu", station: "Bezpieczna w pomieszczeniu", generator: "Tylko na zewnątrz" },
   { icon: Wind, label: "Spaliny", station: "Zero emisji", generator: "Toksyczne spaliny" },
   { icon: Shield, label: "Bezpieczeństwo elektroniki", station: "Czysta sinusoida", generator: "Ryzyko uszkodzenia" },

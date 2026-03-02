@@ -6,13 +6,13 @@ const showcaseItems = [
 {
   image: orloSolar,
   title: "Przenośna Stacja Zasilania z Możliwością Ładowania Panelem Słonecznym",
-  desc: "Ładowanie panelem fotowoltaicznym do 600W — idealne rozwiązanie off-grid na działkę, kemping czy awaryjne zasilanie domu.",
+  desc: "Ładowanie panelem fotowoltaicznym do 600W. Idealne rozwiązanie off-grid na działkę, kemping czy awaryjne zasilanie domu.",
   alt: "ORLLO Power Station z panelem słonecznym — ładowanie solarne do 600W",
   reverse: false
 },
 {
   image: orloPortsLed,
-  title: "Mobilny Magazyn Energii OFF GRID — 13 Portów Wyjściowych",
+  title: "Mobilny Magazyn Energii OFF GRID\n13 Portów Wyjściowych",
   desc: "13 portów wyjściowych i wbudowane oświetlenie LED. Naładuj jednocześnie laptopa, telefon, głośnik i wiele więcej.",
   alt: "ORLLO Power Station — 13 portów wyjściowych i wbudowane oświetlenie LED",
   reverse: true
