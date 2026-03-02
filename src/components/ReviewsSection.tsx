@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
 const reviews = [
-{ name: "Marek K.", role: "Dom jednorodzinny", text: "Kupiłem ORLLO przed zimą i podczas awarii prądu zasilałem kocioł CO przez 8 godzin. Rewelacja — polecam każdemu właścicielowi domu." },
+{ name: "Marek K.", role: "Dom jednorodzinny", text: "Kupiłem ORLLO przed zimą i podczas awarii prądu zasilałem kocioł CO przez 8 godzin. Rewelacja! Polecam każdemu właścicielowi domu." },
 { name: "Anna W.", role: "Rodzina 2+2", text: "Lodówka, router i lampki chodziły całą noc podczas burzy. Dzieci nawet nie zauważyły, że nie było prądu. Naprawdę warto." },
 { name: "Tomasz R.", role: "Firma budowlana", text: "Używam na budowie do zasilania elektronarzędzi. Kompaktowa, lekka i ładuje się ekspresowo. Lepsza niż generator spalinowy." },
 { name: "Katarzyna M.", role: "Camping", text: "Na campingu zasilam lodówkę turystyczną i ładuję telefony. Trzy dni bez gniazdka — żaden problem!" },
