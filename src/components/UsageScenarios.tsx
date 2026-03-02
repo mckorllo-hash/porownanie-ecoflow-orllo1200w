@@ -40,7 +40,7 @@ const UsageScenarios = () =>
               <td className="py-3 px-4 text-center"><Check className="w-5 h-5 text-primary mx-auto" /></td>
             </tr>
             <tr className="border-b border-border/50">
-              <td className="py-3 px-4 font-medium text-foreground">Dom — blackout</td>
+              <td className="py-3 px-4 font-medium text-foreground">Dom Blackout</td>
               <td className="py-3 px-4 text-center"><span className="text-primary font-bold">pełny</span></td>
               <td className="py-3 px-4 text-center"><span className="text-accent">ograniczony</span></td>
             </tr>

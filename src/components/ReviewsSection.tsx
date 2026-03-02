@@ -6,7 +6,7 @@ const reviews = [
 { name: "Anna W.", role: "Rodzina 2+2", text: "Lodówka, router i lampki chodziły całą noc podczas burzy. Dzieci nawet nie zauważyły, że nie było prądu. Naprawdę warto." },
 { name: "Tomasz R.", role: "Firma budowlana", text: "Używam na budowie do zasilania elektronarzędzi. Kompaktowa, lekka i ładuje się ekspresowo. Lepsza niż generator spalinowy." },
 { name: "Katarzyna M.", role: "Camping", text: "Na campingu zasilam lodówkę turystyczną i ładuję telefony. Trzy dni bez gniazdka — żaden problem!" },
-{ name: "Paweł S.", role: "Dom — blackout", text: "Po ostatnich wichurach byliśmy 12h bez prądu. ORLLO uratował nam lodówkę pełną jedzenia. Inwestycja, która się zwraca." },
+{ name: "Paweł S.", role: "Dom Blackout", text: "Po ostatnich wichurach byliśmy 12h bez prądu. ORLLO uratował nam lodówkę pełną jedzenia. Inwestycja, która się zwraca." },
 { name: "Ewa L.", role: "Praca zdalna", text: "Pracuję z domu i przerwy w prądzie to koszmar. Z ORLLO laptop i router działają bez przerwy — zero stresu." },
 { name: "Jakub D.", role: "Fotowoltaika", text: "Ładuję panelami solarnymi i mam darmową energię na działce. Świetna stacja, polska dystrybucja to duży plus." },
 { name: "Monika G.", role: "Dom jednorodzinny", text: "Serwis odpowiedział w 24h, wysyłka tego samego dnia. Jakość obsługi na najwyższym poziomie. Polecam!" }];
