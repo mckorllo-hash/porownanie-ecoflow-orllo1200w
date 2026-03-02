@@ -28,8 +28,8 @@ const ProductShowcase = () =>
       viewport={{ once: true }}
       className="text-center mb-12">
 
-        <h2 className="text-2xl md:text-3xl font-display font-bold mb-3">ORLLO trzyma w napięciu
-        <span className="text-gradient-primary">ORLLO</span> w akcji
+        <h2 className="text-2xl md:text-3xl font-display font-bold mb-3">
+          <span className="text-primary">Stacja Zasilania ORLLO</span> trzyma w napięciu
         </h2>
         <p className="text-muted-foreground">Zobacz możliwości stacji zasilania</p>
       </motion.div>
