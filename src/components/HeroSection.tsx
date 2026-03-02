@@ -22,10 +22,10 @@ const HeroSection = () =>
         <span className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20 mb-6">
           Porównanie 2026
         </span>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight mb-6">Przenośna Stacja ORLLO vs EcoFlow
-— porównanie stacji zasilania<span className="text-gradient-primary">Przenośna Stacja ORLLO</span> vs EcoFlow River 2 Pro
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight mb-6">
+          <span className="text-gradient-primary">Przenośna Stacja ORLLO</span> vs EcoFlow River 2 Pro
           <br />
-          <span className="text-foreground/80 text-2xl sm:text-3xl md:text-4xl">— porównanie stacji zasilania</span>
+          <span className="text-foreground/80 text-2xl sm:text-3xl md:text-4xl">Porównanie stacji zasilania</span>
         </h1>
         <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto">
           Która stacja zasilania lepiej sprawdzi się w domu podczas braku prądu?
