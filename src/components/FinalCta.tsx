@@ -38,12 +38,13 @@ const FinalCta = () => {
             >🟢 Kup teraz - ORLLO
 
             </a>
-            <button
-              disabled
-              className="px-8 py-4 rounded-xl bg-muted text-muted-foreground font-bold text-lg cursor-not-allowed opacity-70">
-
-              ⚪ EcoFlow
-            </button>
+            <a
+              href="https://orllo.pl/energy/stacja-zasilania-ecoflow-river-2-pro.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 rounded-xl bg-[hsl(220,60%,30%)] text-white font-bold text-lg hover:brightness-110 transition-all">
+              🔵 Kup teraz - EcoFlow
+            </a>
           </div>
         </motion.div>
       </div>
