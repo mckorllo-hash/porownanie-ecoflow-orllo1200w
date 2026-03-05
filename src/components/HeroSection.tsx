@@ -71,7 +71,7 @@ const HeroSection = () =>
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => (window as any).gtag?.("event", "add_to_cart", { event_category: "ecommerce", event_label: "Kup teraz — EcoFlow (Hero)", value: 0 })}
-          className="inline-flex items-center justify-center w-full px-6 py-3.5 rounded-xl bg-secondary text-secondary-foreground font-bold text-base hover:brightness-110 transition-all">
+          className="inline-flex items-center justify-center w-full px-6 py-3.5 rounded-xl bg-[hsl(220,60%,30%)] text-white font-bold text-base hover:brightness-110 transition-all">
             🔵 Kup teraz - EcoFlow
           </a>
         </motion.div>
