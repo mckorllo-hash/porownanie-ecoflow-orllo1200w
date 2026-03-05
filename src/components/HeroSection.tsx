@@ -66,13 +66,14 @@ const HeroSection = () =>
           <img alt="EcoFlow River 2 Pro stacja zasilania" className="w-full max-w-[280px] mx-auto rounded-xl mb-4 opacity-75" src="/lovable-uploads/0b28164b-d547-4f92-b7ee-9cf070423089.jpg" />
           <h2 className="font-display text-xl font-bold text-foreground mb-1">EcoFlow River 2 Pro</h2>
           <p className="text-muted-foreground text-sm mb-4">800W / 768Wh / LiFePO4</p>
-          <button
-          disabled
-          className="inline-flex items-center justify-center w-full px-6 py-3.5 rounded-xl bg-muted text-muted-foreground font-bold text-base cursor-not-allowed opacity-70">
-
-            ⚪ Kup teraz - EcoFlow
-          </button>
-          <p className="text-xs text-muted-foreground mt-2">Link wkrótce dostępny</p>
+          <a
+          href="https://orllo.pl/energy/stacja-zasilania-ecoflow-river-2-pro.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => (window as any).gtag?.("event", "add_to_cart", { event_category: "ecommerce", event_label: "Kup teraz — EcoFlow (Hero)", value: 0 })}
+          className="inline-flex items-center justify-center w-full px-6 py-3.5 rounded-xl bg-secondary text-secondary-foreground font-bold text-base hover:brightness-110 transition-all">
+            🔵 Kup teraz - EcoFlow
+          </a>
         </motion.div>
       </div>
     </div>
