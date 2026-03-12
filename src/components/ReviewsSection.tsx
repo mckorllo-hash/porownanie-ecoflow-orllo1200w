@@ -44,7 +44,7 @@ const ReviewsSection = () =>
         className="surface-elevated rounded-2xl p-5 border border-border">
 
             <Stars />
-            <p className="text-foreground/90 text-sm mt-3 mb-4 leading-relaxed">„{r.text}"</p>
+            <p className="text-foreground/90 text-sm mt-3 mb-4 leading-relaxed">{r.text}</p>
             <div>
               <p className="font-bold text-foreground text-sm">{r.name}</p>
               <p className="text-muted-foreground text-xs">{r.role}</p>
