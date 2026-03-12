@@ -8,7 +8,7 @@ const features = [
   { icon: Battery, label: "Typ baterii", orllo: "LiFePO4 EVE", eco: "LiFePO4", orlloWin: true },
   { icon: Clock, label: "Ładowanie 0-100%", orllo: "~60 min", eco: "~70 min", orlloWin: true },
   { icon: Plug, label: "Gniazda 230V", orllo: "2", eco: "2", orlloWin: true },
-  { icon: Weight, label: "Waga", orllo: "~12 kg", eco: "~7.8 kg", orlloWin: false },
+  { icon: Weight, label: "Waga", orllo: "~12 kg", eco: "~7.9 kg", orlloWin: false },
 ];
 
 const QuickComparison = () => (
