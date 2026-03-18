@@ -66,7 +66,8 @@ const HeroSection = () =>
 
           <img alt="EcoFlow River 2 Pro stacja zasilania" className="w-full max-w-[280px] mx-auto rounded-xl mb-4 opacity-75" src="/lovable-uploads/0b28164b-d547-4f92-b7ee-9cf070423089.jpg" />
           <h2 className="font-display text-xl font-bold text-foreground mb-1">EcoFlow River 2 Pro</h2>
-          <p className="text-muted-foreground text-sm mb-4">800W / 768Wh / LiFePO4</p>
+          <p className="text-muted-foreground text-sm mb-2">800W / 768Wh / LiFePO4</p>
+          <p className="text-xs font-semibold mb-4 invisible">⠀</p>
           <a
           href="https://orllo.pl/energy/stacja-zasilania-ecoflow-river-2-pro.html"
           target="_blank"
