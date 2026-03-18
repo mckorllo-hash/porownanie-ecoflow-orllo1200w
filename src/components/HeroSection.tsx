@@ -45,7 +45,8 @@ const HeroSection = () =>
           </span>
           <img alt="Przenośna stacja zasilania ORLLO 1200W 1024Wh LiFePO4" className="w-full max-w-[280px] mx-auto rounded-xl mb-4" src="/lovable-uploads/9b2e6838-0c84-49df-8e25-5311da70c3c1.jpg" />
           <h2 className="font-display text-xl font-bold text-foreground mb-1">Stacja Zasilania ORLLO 1200W     </h2>
-          <p className="text-muted-foreground text-sm mb-4">1200W / 1024Wh / LiFePO4</p>
+          <p className="text-muted-foreground text-sm mb-2">1200W / 1024Wh / LiFePO4</p>
+          <p className="text-xs text-primary font-semibold mb-4">⭐ Ponad 2500 zadowolonych klientów</p>
           <a
           href={ORLLO_LINK}
           target="_blank"
