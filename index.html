@@ -21,16 +21,28 @@
     />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQ6XLF8QJ9"></script>
+    <!-- Google Consent Mode v2 — domyślnie odmowa, zanim załadują się tagi -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-GR3D2Y7KT1');
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500
+      });
+      var savedConsent = null;
+      try { savedConsent = window.localStorage.getItem('orllo_cookie_consent'); } catch (e) {}
+      if (savedConsent === 'accepted') {
+        gtag('consent', 'update', {
+          ad_storage: 'granted',
+          ad_user_data: 'granted',
+          ad_personalization: 'granted',
+          analytics_storage: 'granted'
+        });
+      }
     </script>
-    <!-- End Google Analytics -->
     <!-- Google Tag Manager -->
     <script>
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -40,15 +52,13 @@
       })(window,document,'script','dataLayer','GTM-K4ZXZRG');
     </script>
     <!-- End Google Tag Manager -->
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GR3D2Y7KT1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-GR3D2Y7KT1');
     </script>
+    <!-- End Google Analytics -->
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
