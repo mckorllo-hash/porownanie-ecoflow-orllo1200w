@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import HeroSection from "@/components/HeroSection";
 import QuickComparison from "@/components/QuickComparison";
 import FullComparisonTable from "@/components/FullComparisonTable";
@@ -30,6 +31,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <p>© 2026 Porównanie stacji zasilania. Wszystkie dane na podstawie specyfikacji producenta.</p>
           <p className="mt-1">Strona nie jest oficjalną stroną EcoFlow. EcoFlow® jest znakiem towarowym EcoFlow Technology.</p>
+          <p className="mt-2">
+            <Link to="/polityka-prywatnosci" className="underline underline-offset-2 transition-colors hover:text-primary">
+              Polityka prywatności i cookies
+            </Link>
+          </p>
         </div>
       </footer>
     </main>
